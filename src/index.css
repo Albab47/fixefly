@@ -45,3 +45,7 @@
   font-weight: 200;
   font-style: italic;
 }
+
+body {
+  @apply bg-background font-body;
+}
