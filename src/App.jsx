@@ -1,12 +1,14 @@
-function App() {
+import Navbar from "./components/Navbar";
+import { Hero } from "./sections";
 
+function App() {
   return (
-    <>
-      <main className='font-bold text-lg text-red-500'>
-        Hello world
-      </main>
-    </>
-  )
+    <main>
+      <Navbar />
+
+      <Hero />
+    </main>
+  );
 }
 
-export default App
+export default App;
