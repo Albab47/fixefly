@@ -12,7 +12,8 @@ export default {
         "background": "#F4F7FF",
       },
       fontFamily: {
-        ppMori: ['PP Mori', 'sans-serif']
+        ppMori: ['PP Mori', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       }
     },
   },
