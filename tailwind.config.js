@@ -8,8 +8,8 @@ export default {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
-        '2xl': '10rem',
+        DEFAULT: "1.06rem",
+        '2xl': '8rem',
       }
     },
     extend: {
