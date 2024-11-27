@@ -1,4 +1,4 @@
-const Button = ({ children, hoverTxt, icon, outline = false }) => {
+const Button = ({ children, hoverTxt, icon: Icon, outline = false }) => {
   return (
     <button
       className={`group relative text-lg font-semibold flex items-center justify-center h-full gap-3 px-5 py-1 ${
@@ -13,10 +13,11 @@ const Button = ({ children, hoverTxt, icon, outline = false }) => {
       ) : (
         <span>{children}</span>
       )}
-      {icon && (
+      {Icon && (
         <span className="relative group-hover:hidden only:-mx-6">
-          <img src={icon} alt="icon" />
+          <Icon className="size-5" />
         </span>
+        
       )}
     </button>
   );
