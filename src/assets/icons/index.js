@@ -1,15 +1,17 @@
-import homeIcon from "./home.svg";
-import aboutUsIcon from "./about-us.svg";
-import servicesIcon from "./services.svg";
-import blogIcon from "./blog.svg";
-import caseStudyIcon from "./case-study.svg";
-import rightArrowIcon from "./arrow-right.svg";
+import HomeIcon from "./home.svg?react";
+import AboutUsIcon from "./about-us.svg?react";
+import ServicesIcon from "./services.svg?react";
+import BlogIcon from "./blog.svg?react";
+import CaseStudyIcon from "./case-study.svg?react";
+import RightArrowIcon from "./arrow-right.svg?react";
+import MenuIcon from "./menu.svg?react";
 
 export {
-  homeIcon,
-  aboutUsIcon,
-  servicesIcon,
-  blogIcon,
-  caseStudyIcon,
-  rightArrowIcon,
+  HomeIcon,
+  AboutUsIcon,
+  ServicesIcon,
+  BlogIcon,
+  CaseStudyIcon,
+  RightArrowIcon,
+  MenuIcon,
 };
