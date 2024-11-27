@@ -1,13 +1,20 @@
-const Button = ({ children, icon, outline = false }) => {
+const Button = ({ children, hoverTxt, icon, outline = false }) => {
   return (
     <button
-      className={`text-lg font-semibold flex items-center justify-center h-full gap-3 px-5 py-1 ${
+      className={`group relative text-lg font-semibold flex items-center justify-center h-full gap-3 px-5 py-1 ${
         outline ? "bg-white text-black" : "bg-primary text-white"
-      } rounded-full`}
+      } rounded-full transition-transform duration-300 ease-in-out`}
     >
-      <span>{children}</span>
+      {hoverTxt ? (
+        <>
+          <span className="group-hover:hidden transition-all duration-500">{children}</span>
+          <span className="hidden transition-all duration-500 group-hover:block">{hoverTxt}</span>
+        </>
+      ) : (
+        <span>{children}</span>
+      )}
       {icon && (
-        <span className="relative only:-mx-6">
+        <span className="relative group-hover:hidden only:-mx-6">
           <img src={icon} alt="icon" />
         </span>
       )}
