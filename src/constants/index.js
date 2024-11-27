@@ -1,9 +1,9 @@
-import {aboutUsIcon, blogIcon, caseStudyIcon, homeIcon, servicesIcon} from '../assets/icons'
+import { AboutUsIcon, BlogIcon, CaseStudyIcon, HomeIcon, ServicesIcon } from "../assets/icons";
 
 export const navLinks = [
-    {address: "#", label: "Home", icon: homeIcon},
-    {address: "#about-us", label: "About Us", icon: aboutUsIcon},
-    {address: "#services", label: "Services", icon: servicesIcon},
-    {address: "#blog", label: "Blog", icon: blogIcon},
-    {address: "#case-study", label: "Case Study", icon: caseStudyIcon},
-]
+  { address: "#", label: "Home", icon: HomeIcon },
+  { address: "#about-us", label: "About Us", icon: AboutUsIcon },
+  { address: "#services", label: "Services", icon: ServicesIcon },
+  { address: "#blog", label: "Blog", icon: BlogIcon },
+  { address: "#case-study", label: "Case Study", icon: CaseStudyIcon },
+];
