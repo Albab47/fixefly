@@ -15,8 +15,7 @@ export default {
     extend: {
       colors: {
         "primary": "#7362FF",
-        "accent": "#7362ff",
-        // "accent": "#FF6452",
+        "accent": "#7362FF0D",
         "background": "#F4F7FF",
       },
       fontFamily: {
