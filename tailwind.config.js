@@ -16,6 +16,7 @@ export default {
       colors: {
         "primary": "#7362FF",
         "accent": "#7362FF0D",
+        "dark": "#000000CC",
         "background": "#F4F7FF",
       },
       fontFamily: {
