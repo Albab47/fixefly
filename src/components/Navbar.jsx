@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
   return (
-    <header className="container fixed inset-0 z-20 mt-9">
+    <header className="container fixed inset-x-0 z-20 mt-9">
       <nav
         aria-label="main navigation"
         className="flex justify-between border border-[#0000000D] h-[5rem] md:h-[5.8rem] py-3.5 px-5 items-center bg-white/90 backdrop-blur-md rounded-full font-medium text-slate-700"

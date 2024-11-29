@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar";
-import { Hero } from "./sections";
+import { Hero, Overview } from "./sections";
 
 function App() {
   return (
     <main>
       <Navbar />
-
       <Hero />
+      <Overview />
     </main>
   );
 }
