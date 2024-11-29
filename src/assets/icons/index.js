@@ -5,6 +5,8 @@ import BlogIcon from "./blog.svg?react";
 import CaseStudyIcon from "./case-study.svg?react";
 import RightArrowIcon from "./arrow-right.svg?react";
 import MenuIcon from "./menu.svg?react";
+import Sparkel from "./sparkel.svg?react";
+import StartSm from "./star-sm.svg?react";
 
 export {
   HomeIcon,
@@ -14,4 +16,6 @@ export {
   CaseStudyIcon,
   RightArrowIcon,
   MenuIcon,
+  Sparkel,
+  StartSm
 };
