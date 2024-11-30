@@ -27,7 +27,7 @@ const Hero = () => {
           <Button>Book Free Consultation</Button>
           <Button outline={true}>
             <RightArrowIcon className="fill-black" />
-            See Our Works
+            See Our Projects
           </Button>
         </div>
       </div>
